@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const links = {
-  sourceCode: "https://github.com/miraz-alvee/next-portfolio",
+  sourceCode: "https://github.com/miraz-alvee/miraz-alvee-3D-portfolio-github.io",
   ownerName: "Miraz Alvee",
   ownerEmail: "mirazalvee98@gmail.com",
 } as const;
 
 export const siteConfig: Metadata = {
-  title: `it's me ${links.ownerName}`,
+  title: `${links.ownerName} | Software Engineer`,
   description: "Portfolio of Miraz Alvee, Full Stack Developer specializing in React, Next.js, Nest.js, and TypeScript.",
   keywords: [
     "reactjs",

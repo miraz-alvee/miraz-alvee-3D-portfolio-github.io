@@ -49,7 +49,7 @@ export const Footer = () => {
         <p className="text-sm font-light md:text-base md:font-normal">
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link
-            href=""
+            href="https://about.me/mirazalvee"
             target="_blank"
             rel="noreferrer noopener"
             className="text-purple"
