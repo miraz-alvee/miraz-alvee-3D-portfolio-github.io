@@ -8,9 +8,11 @@ import { cn } from "@/lib/utils";
 export const TextGenerateEffect = ({
   words,
   className,
+  as: Tag = "div",
 }: {
   words: string;
   className?: string;
+  as?: "div" | "h1" | "h2";
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -45,12 +47,12 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <div className={cn("font-bold", className)}>
+    <Tag className={cn("font-bold", className)}>
       <div className="my-4">
         <div className="leading-snug tracking-wide text-black dark:text-white">
           {renderWords()}
         </div>
       </div>
-    </div>
+    </Tag>
   );
 };

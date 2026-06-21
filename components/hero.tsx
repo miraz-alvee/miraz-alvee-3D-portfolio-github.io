@@ -27,11 +27,12 @@ export const Hero = () => {
 
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
-          <h2 className="max-w-80 text-center text-sm uppercase tracking-widest text-blue-100">
+          <p className="max-w-80 text-center text-sm uppercase tracking-widest text-blue-100">
             Dynamic Web Magic with me
-          </h2>
+          </p>
 
           <TextGenerateEffect
+            as="h1"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experiences"
           />
